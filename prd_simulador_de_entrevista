@@ -1,0 +1,90 @@
+# PRD – Simulador de Entrevistas com IA
+
+
+## Visão Geral
+
+O aplicativo é um simulador de entrevistas para vaga de emprego, utilizando IA para gerar perguntas realistas, avaliar respostas e fornecer feedback personalizado. O objetivo é ajudar candidatos a se prepararem melhor para processos seletivos, aumentando confiança e desempenho.
+
+
+## Objetivos do Produto
+
+Criar uma experiência interativa de entrevista simulada.
+
+Adaptar perguntas conforme área de atuação e nível da vaga.
+
+Avaliar respostas com base em clareza, objetividade e relevância.
+
+Fornecer feedback construtivo e sugestões de melhoria.
+
+Permitir múltiplos modos de prática (texto, voz).
+
+Integrar relatórios de progresso para acompanhamento do usuário.
+
+
+## Público-Alvo
+
+Estudantes universitários em busca do primeiro emprego.
+
+Profissionais em transição de carreira.
+
+Pessoas que desejam treinar entrevistas em diferentes idiomas.
+
+Empresas que querem oferecer treinamento interno.
+
+
+## Funcionalidades Principais
+
+- Simulação de Entrevista
+Perguntas geradas dinamicamente pela IA.
+
+- Modos: entrevista comportamental, técnica e situacional.
+
+- Opção de responder por texto ou voz.
+
+- Avaliação e Feedback
+Análise automática das respostas (clareza, confiança, relevância).
+
+- Feedback imediato com pontos fortes e áreas de melhoria.
+
+- Sugestões de respostas modelo.
+
+- Personalização
+Escolha do cargo e setor (TI, Marketing, RH, etc.).
+
+- Nível da vaga (junior, pleno, senior).
+
+- Idioma da entrevista (Português, Inglês, Espanhol).
+
+- Duração da entrevista por tempo ou número de perguntas.
+
+- Recomendações de estudo.
+
+
+## Fluxo do Usuário
+
+- Visualiza a tela de apresentação e boas-vindas.
+
+- Faz o login.
+Para novos usuários, permite fazer o cadastro, usando um e-mail como nome do usuário.
+Permite recuperar a senha caso a tenha esquecido.
+Se for o primeiro usuário cadastrado no aplicativo, é atribuído a ele o papel de dev automaticamente. Nesse caso, o nome do usuário não precisa ser um e-mail.
+
+- Escolhe cargo e setor.
+
+- Escolhe o idioma.
+Português como padrão.
+
+- Escolhe se quer definir a duração da entrevista por tempo ou quantidade de perguntas.
+
+- Inicia entrevista simulada.
+
+- Responde às perguntas (texto/voz).
+Uma pergunta por tela.
+Botão que permite que a IA gere uma resposta automática para ele (apenas se for o usuário dev).
+
+- Recebe feedback imediato.
+
+- Visualiza relatório de desempenho.
+
+- Pode repetir entrevistas para melhorar.
+
