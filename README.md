@@ -5,5 +5,5 @@ Simulador de entrevistas para vaga de emprego
 https://response-coach-ai.lovable.app/
 
 ## arquivos
-copilot: arquivo com a conversa com o copilot
-prd-response-coach-ai: prd final, após enxugamento e refinamento manual, submetido ao lavable
+- copilot: arquivo com a conversação com o copilot
+- prd_simulador_de_entrevista: prd final, após enxugamento e refinamento manual, submetido ao lavable
