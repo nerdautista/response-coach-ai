@@ -1,0 +1,218 @@
+Hoje
+Vc é um desenvolvedor de aplicativos usando IA. Vc quer fazer um simulador de entrevistas para vagas de emprego. Crie um PRD para que esse aplicativo possa ser criado usando o Lovable.
+Aqui está um PRD (Product Requirements Document) detalhado para o simulador de entrevistas com IA que você quer criar usando o Lovable:
+
+📄 PRD – Simulador de Entrevistas com IA
+1. Visão Geral
+O aplicativo será um simulador de entrevistas para vagas de emprego, utilizando IA para gerar perguntas realistas, avaliar respostas e fornecer feedback personalizado. O objetivo é ajudar candidatos a se prepararem melhor para processos seletivos, aumentando confiança e desempenho.
+
+2. Objetivos do Produto
+Criar uma experiência interativa de entrevista simulada.
+
+Adaptar perguntas conforme área de atuação e nível da vaga.
+
+Avaliar respostas com base em clareza, objetividade e relevância.
+
+Fornecer feedback construtivo e sugestões de melhoria.
+
+Permitir múltiplos modos de prática (texto, voz).
+
+Integrar relatórios de progresso para acompanhamento do usuário.
+
+3. Público-Alvo
+Estudantes universitários em busca do primeiro emprego.
+
+Profissionais em transição de carreira.
+
+Pessoas que desejam treinar entrevistas em diferentes idiomas.
+
+Empresas que querem oferecer treinamento interno.
+
+4. Funcionalidades Principais
+🎤 Simulação de Entrevista
+Perguntas geradas dinamicamente pela IA.
+
+Modos: entrevista comportamental, técnica e situacional.
+
+Opção de responder por texto ou voz.
+
+📊 Avaliação e Feedback
+Análise automática das respostas (clareza, confiança, relevância).
+
+Feedback imediato com pontos fortes e áreas de melhoria.
+
+Sugestões de respostas modelo.
+
+🧩 Personalização
+Escolha do cargo e setor (TI, Marketing, RH, etc.).
+
+Nível da vaga (junior, pleno, senior).
+
+Idioma da entrevista (Português, Inglês, Espanhol).
+
+📈 Relatórios
+Histórico de entrevistas simuladas.
+
+Gráficos de evolução do desempenho.
+
+Recomendações de estudo.
+
+🔗 Integrações
+Login via Google/LinkedIn.
+
+Exportação de relatórios em PDF.
+
+Possível integração futura com plataformas de recrutamento.
+
+5. Requisitos Técnicos
+Frontend: React (Lovable já suporta).
+
+Backend: Node.js com API REST.
+
+IA: Integração com modelo de linguagem (OpenAI/Microsoft Azure AI).
+
+Banco de Dados: PostgreSQL para usuários e histórico.
+
+Autenticação: OAuth 2.0 (Google/LinkedIn).
+
+Infraestrutura: Deploy em cloud (Azure ou AWS).
+
+6. Fluxo do Usuário
+Usuário faz login.
+
+Escolhe vaga/setor e idioma.
+
+Inicia entrevista simulada.
+
+Responde às perguntas (texto/voz).
+
+Recebe feedback imediato.
+
+Visualiza relatório de desempenho.
+
+Pode repetir entrevistas para melhorar.
+
+7. Métricas de Sucesso
+Número de entrevistas simuladas por usuário.
+
+Taxa de retenção semanal/mensal.
+
+Feedback positivo dos usuários (NPS).
+
+Parcerias com universidades e empresas.
+
+8. Roadmap Inicial
+MVP (1-2 meses): Simulação básica de entrevistas com perguntas e feedback em texto.
+
+Versão 2: Suporte a voz, relatórios de progresso.
+
+Versão 3: Personalização avançada, integração com LinkedIn.
+
+Versão 4: Treinamento corporativo e dashboards para empresas.
+
+Quer que eu também monte um wireframe de telas principais (login, escolha de vaga, entrevista, feedback) para complementar o PRD? Isso ajudaria a visualizar melhor como o app ficaria.
+
+sim
+
+
+Aqui está o wireframe das telas principais do simulador de entrevistas com IA que você pediu.
+
+https://copilot.microsoft.com/th/id/BCO.53dc5e8d-1883-4a03-8a27-29061095986a.png
+
+🖼️ Telas incluídas
+Tela de Login: opções de entrada via Google ou LinkedIn.
+
+Tela de Escolha de Vaga: seleção de cargo, setor e idioma, com botão para iniciar entrevista.
+
+Tela de Entrevista: pergunta exibida no topo, campo para resposta em texto e botões de controle para modo voz.
+
+Tela de Feedback: avaliação com pontos fortes e áreas de melhoria, botão para avançar.
+
+Tela de Relatórios (não mostrada no preview mas prevista no PRD): gráficos de evolução e histórico de entrevistas.
+
+Esse conjunto de telas cobre bem o fluxo principal do usuário, desde o login até o acompanhamento de desempenho.
+
+👉 Quer que eu também monte um fluxo de navegação detalhado (mapa de telas e transições) para complementar o PRD e os wireframes? Isso ajudaria a equipe de desenvolvimento a entender como o usuário percorre o app.
+
+Para a tela de login, adicione a opção de entrada utilizando um e-mail pessoal. Na tela de entrevista, deixar claro que são várias telas, uma para cada pergunta, sendo que as perguntas podem variar de acordo com a resposta do entrevistado.
+
+
+Aqui está o wireframe atualizado com as melhorias que você pediu:
+
+🔗 Visualizar imagem completa
+
+🛠️ Atualizações incluídas
+Tela de Login
+Adicionada opção de entrada com e-mail pessoal, além de Google e LinkedIn.
+
+Campo de texto para digitar o e-mail e botão “Continuar”.
+
+Tela de Entrevista
+Indicação clara de que são múltiplas perguntas (“Pergunta 1 de 5”).
+
+Mensagem explicando que as perguntas variam conforme as respostas do usuário.
+
+Botões para controle de voz e configurações.
+
+Essas mudanças tornam o fluxo mais flexível e inclusivo, além de destacar o uso de IA adaptativa na entrevista.
+
+Se quiser, posso agora montar o fluxo de navegação completo entre essas telas, com setas e transições, para facilitar o desenvolvimento e testes. Deseja seguir por esse caminho?
+
+Permita que o usuário defina a quantidade de perguntas, ou defina um tempo de duração da entrevista.
+
+
+Aqui está o wireframe atualizado com a nova funcionalidade: o usuário agora pode definir a quantidade de perguntas ou o tempo de duração da entrevista diretamente na tela de configuração da vaga.
+
+🔗 Visualizar imagem completa
+
+🆕 Novidades incluídas
+Tela de Escolha de Vaga
+Campos adicionais:
+
+Número de perguntas: o usuário escolhe quantas perguntas quer responder.
+
+Tempo de duração: alternativa para limitar a entrevista por tempo.
+
+Isso permite entrevistas mais curtas ou mais profundas, conforme a preferência.
+
+Tela de Entrevista
+Continua com perguntas adaptativas, uma por tela.
+
+IA ajusta o conteúdo com base nas respostas anteriores.
+
+Esse ajuste torna o simulador mais flexível e personalizado, ideal para diferentes perfis de candidatos.
+
+Se quiser, posso agora montar um mockup visual completo com cores, ícones e estilo final, ou seguir para o desenho técnico das APIs e arquitetura. Qual caminho você prefere seguir?
+
+Antes de perguntar a quantidade de perguntas ou o tempo de duração, perguntar se o usuário deseja definir a duração da entrevista por quantidade de perguntas ou por tempo. Será solicitado apenas um desses dois campos, dependendo da escolha.
+
+
+Perfeito! Agora o fluxo está ainda mais inteligente e adaptável. A nova tela intermediária permite que o usuário escolha entre definir a entrevista por quantidade de perguntas ou por tempo de duração, e só então o campo correspondente é exibido.
+
+🔗 Visualizar imagem atualizada
+
+🧠 Lógica de fluxo refinada
+Etapa 1: Escolha de Vaga
+Seleção de cargo, setor e idioma.
+
+Etapa 2: Definição de Duração
+Pergunta: “Como definir a duração?”
+
+Opções: “Quantidade de perguntas” ou “Tempo”
+
+Exibe apenas o campo correspondente à escolha:
+
+Se “Quantidade de perguntas”: campo para número.
+
+Se “Tempo”: campo para minutos.
+
+Etapa 3: Entrevista
+Perguntas adaptativas, uma por tela.
+
+IA ajusta o conteúdo com base nas respostas.
+
+Etapa 4: Feedback
+Avaliação personalizada com pontos fortes e áreas de melhoria.
+
+Esse refinamento melhora a experiência do usuário e evita sobrecarga de opções. Se quiser, posso agora montar o desenho técnico da API para essa lógica ou seguir para o mockup visual final com cores e estilo realista. Qual você prefere?
+
